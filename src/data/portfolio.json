@@ -1,0 +1,116 @@
+{
+  "profile": {
+    "name": "Sanjai Harikrishnan",
+    "shortName": "Sanjai",
+    "role": "Full-Stack Software Engineer",
+    "headline": "I build reliable products from API to interface.",
+    "location": "Chennai, Tamil Nadu, India",
+    "email": "sanjaihari2002@gmail.com",
+    "phone": "+91 85310 59996",
+    "linkedin": "https://linkedin.com/in/sanjaiharikrishnan",
+    "leetcode": "https://leetcode.com/sanjaiharikrishnan",
+    "github": "https://github.com/",
+    "summary": "Full-Stack .NET Developer with 3+ years of experience building scalable web applications with C#, ASP.NET Core Web API, React.js, and SQL Server. Skilled in RESTful APIs, event-driven microservices with RabbitMQ, Redis caching, Entity Framework Core, and query optimization. Strong in SOLID principles, Layered Architecture, and Agile/Scrum delivery. Building expertise in Microsoft Azure and distributed systems."
+  },
+  "navigation": [
+    { "label": "Home", "path": "/" },
+    { "label": "About", "path": "/about" },
+    { "label": "Projects", "path": "/projects" },
+    { "label": "Experience", "path": "/experience" },
+    { "label": "Contact", "path": "/contact" }
+  ],
+  "skills": [
+    { "category": "Backend", "items": ["C#", ".NET Core", "ASP.NET Core Web API", "Entity Framework Core", "LINQ", "REST APIs"] },
+    { "category": "Frontend", "items": ["React.js", "JavaScript", "HTML5", "CSS3", "Axios", "Responsive UI"] },
+    { "category": "Architecture & Messaging", "items": ["Microservices", "RabbitMQ", "Redis", "Layered Architecture", "SOLID Principles"] },
+    { "category": "Data & Quality", "items": ["SQL Server", "MySQL", "Query Optimization", "EF Core Migrations", "xUnit", "Postman", "Git", "Agile/Scrum"] }
+  ],
+  "experience": [
+    {
+      "role": "Software Engineer",
+      "company": "Relevantz Technology Services",
+      "location": "Chennai, India",
+      "period": "July 2026 — Present",
+      "current": true,
+      "highlights": [
+        "Own end-to-end delivery of full-stack features, from requirement analysis to production release, using ASP.NET Core Web APIs, SQL Server, and React.js.",
+        "Design and build scalable microservices and high-performance APIs using RabbitMQ, Redis caching, and layered architecture."
+      ]
+    },
+    {
+      "role": "Junior Software Engineer",
+      "company": "Relevantz Technology Services",
+      "location": "Chennai, India",
+      "period": "July 2023 — June 2026",
+      "current": false,
+      "highlights": [
+        "Developed and maintained production ASP.NET Core Web APIs with layered architecture, improving performance through Redis caching and SQL query optimization.",
+        "Designed event-driven microservices with RabbitMQ across three decoupled modules, reducing direct service dependencies and improving fault tolerance.",
+        "Implemented Redis distributed caching on high-frequency endpoints, reducing database round-trips by approximately 40% under concurrent load, validated with Postman benchmarks.",
+        "Delivered end-to-end features from ASP.NET Core APIs to React.js UI across Agile sprints, consistently meeting release timelines.",
+        "Applied SOLID principles in peer code reviews and wrote xUnit and Postman tests to improve edge-case coverage."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "lkq",
+      "name": "Heavy-Duty Truck E-Commerce Platform",
+      "subtitle": "Customer storefront & admin portal",
+      "type": "Full-Stack Development",
+      "featured": true,
+      "url": "https://lkqheavytruck.com/",
+      "overview": "A B2B, B2C, and guest e-commerce experience for heavy-duty truck parts, with an internal portal for order management.",
+      "stack": ["ASP.NET Core", "C#", "React.js", "SQL Server", "EF Core", "RabbitMQ", "Redis", "Microsoft Graph API"],
+      "highlights": [
+        "Built customer-facing journeys for product search, cart, checkout, and order placement, plus an internal Admin Portal.",
+        "Developed RESTful APIs for pricing, discounts, orders, and customer workflows using layered architecture.",
+        "Improved performance under load with Redis caching, SQL Server query tuning, and optimized API payloads.",
+        "Built reusable React components with Axios, automated order emails through Microsoft Graph API, and added on-demand PDF invoice generation."
+      ]
+    },
+    {
+      "id": "atk-sales",
+      "name": "ATK Sales Rep",
+      "subtitle": "Internal order management platform",
+      "type": "Backend Development",
+      "featured": true,
+      "url": "",
+      "overview": "Backend services supporting purchase workflows, customer information, estimates, orders, and asynchronous integration with an external system.",
+      "stack": [".NET Core", "C#", "EF Core", "SQL Server", "Redis", "RabbitMQ"],
+      "highlights": [
+        "Engineered backend services for the purchase lifecycle, including cart, estimates, orders, and customer profiles.",
+        "Integrated an external system through RabbitMQ for asynchronous order dispatch without blocking core workflows.",
+        "Optimized Entity Framework Core and SQL Server queries for high-volume data."
+      ]
+    },
+    {
+      "id": "lxp",
+      "name": "Learning Experience Platform",
+      "subtitle": "Internal learning and reporting platform",
+      "type": "Full-Stack Development",
+      "featured": true,
+      "url": "",
+      "overview": "An internal platform for learning administration, learner progress, course status, and reporting.",
+      "stack": ["React.js", ".NET Core", "C#", "SQL Server"],
+      "highlights": [
+        "Delivered features from business requirement analysis and design through development, testing, and deployment.",
+        "Built React-based interfaces backed by .NET APIs for learning and reporting workflows."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "qualification": "B.E. Computer Science & Engineering",
+      "institution": "PSN College of Engineering & Technology",
+      "location": "Tirunelveli, Tamil Nadu",
+      "period": "May 2023",
+      "result": "CGPA: 8.3 / 10"
+    }
+  ],
+  "principles": [
+    { "title": "Thoughtful engineering", "description": "I value readable code, clear boundaries, and solutions that are straightforward to maintain." },
+    { "title": "End-to-end ownership", "description": "I enjoy connecting backend services, data, and frontend experiences into a complete feature." },
+    { "title": "Continuous learning", "description": "I keep expanding my skills in cloud platforms, distributed systems, and modern frontend practices." }
+  ]
+}
